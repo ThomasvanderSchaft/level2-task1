@@ -2,7 +2,7 @@ package com.example.placesofinterest
 
 import androidx.annotation.DrawableRes
 
-
+//creating data class for places with a name (String) and drawable resource id (Int)
 data class Place(
     var name: String,
     @DrawableRes var imageResId: Int
